@@ -223,7 +223,9 @@ a.words {
 }
 
 
-
+.nospace {
+    padding: 0;
+}
 
 
 
