@@ -223,8 +223,8 @@ a.words {
 }
 
 
-.nospace {
-    padding: 0;
+a.nospace {
+    padding: 0.1px;
 }
 
 a.border {
