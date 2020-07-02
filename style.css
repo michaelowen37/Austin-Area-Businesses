@@ -93,7 +93,7 @@ NAV bar uses flexbox
 
 /*Space between text in nav bar*/
 li {
-    padding: 1% 4%;
+    padding: 0.5% 2%;
 
 }
 
@@ -238,7 +238,7 @@ button:hover {
 /*This is how the CSS changes when screen width is below 600px - Mobile devices*/
 @media only screen and (max-width: 600px) {
     button {
-        font-size: 3vw;
+        font-size: 4vw;
         padding: 6px 25px;
         width: 30%;
     }
