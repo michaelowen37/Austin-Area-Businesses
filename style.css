@@ -93,8 +93,12 @@ NAV bar uses flexbox
 
 /*Space between text in nav bar*/
 li {
-    padding: 4%;
+    padding: 1% 4%;
 
+}
+
+.top {
+    padding: 4%;
 }
 
 /*This is how the CSS changes when screen width is below 1000px - Mobile devices*/
@@ -275,9 +279,9 @@ transform: scale(1.1);
 footer {
     text-align: center;
     display: flex;
-   /* flex-wrap: wrap;*/
+    flex-wrap: wrap;
     list-style: none;
-    margin: 0;
+    margin: auto;
     background-color: #444;
     width: 100%;
 }
@@ -312,6 +316,8 @@ footer {
         display: none;
     }
 }
+
+
 
 
 /***********************************************************************
