@@ -73,7 +73,7 @@ NAV bar uses flexbox
 /*This is how the CSS changes when screen width is below 600px - Mobile devices*/
 @media only screen and (max-width: 600px) {
     .main-nav, .foot-nav {
-        font-size: 3vw;
+        font-size: 4vw;
         padding: 0;
     }
 }
