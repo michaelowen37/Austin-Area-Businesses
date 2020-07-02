@@ -685,7 +685,7 @@ em {
 /*This is how the CSS changes when screen width is below 600px - Mobile devices*/
 @media only screen and (max-width: 450px) {
     a.words {
-        font-size: 2.8vw;
+        font-size: 3vw;
     }
 }
 
