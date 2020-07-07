@@ -329,11 +329,11 @@ button:hover {
 }
 
 /*This is how the CSS changes when screen width is below 400px - Mobile devices*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     button {
         font-size: 4vw;
         padding: 8px 25px;
-        width: 55%;
+        width: 50%;
     }
 }
 
