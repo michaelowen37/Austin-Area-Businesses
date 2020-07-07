@@ -243,6 +243,21 @@ a.border {
     border: 2px solid green;
 }
 
+/*paypal donate button*/
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.formsize {
+    height: 350vh;
+    width: 100%;
+    overflow-y: hidden;
+    padding-top: 5%;
+}
 
 
 /***********************************************************************
