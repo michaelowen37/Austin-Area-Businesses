@@ -178,6 +178,40 @@ a.words {
     }
 }
 
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+/*This is how the CSS changes when screen width is below 500px - Mobile devices*/
+@media only screen and (max-width: 1000px) {
+    h4 {
+        font-size: 2.5vw;
+        padding: 0 25%;
+        
+    }
+}
+
+/*This is how the CSS changes when screen width is below 500px - Mobile devices*/
+@media only screen and (max-width: 800px) {
+    h4 {
+        font-size: 2.9vw;
+        padding: 0 25%;
+        
+    }
+}
+
+/*This is how the CSS changes when screen width is below 500px - Mobile devices*/
+@media only screen and (max-width: 500px) {
+    h4 {
+        font-size: 3vw;
+        padding: 0 25%;
+        
+    }
+}
+
+
 
 .sticky {
   position: fixed;
