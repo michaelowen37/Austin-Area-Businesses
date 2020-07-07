@@ -283,7 +283,7 @@ form {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 5%;
+    padding: 5% 0 2% 0;
 }
 
 .formsize {
