@@ -681,7 +681,7 @@ This is how the CSS changes when screen width is below 400px - Mobile devices
 .grid-wrapper2 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-    grid-gap: 2% 2%;
+    grid-gap: 1% 1%;
     padding: 3% 2% 10% 2%;
     min-height: 100%;
     grid-auto-rows: minmax(20vh, 10vh);
