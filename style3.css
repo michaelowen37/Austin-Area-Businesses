@@ -226,13 +226,32 @@ h4 {
   width: 100%;
   background-color: #000000;
   overflow: hidden;
+  display: flex;
+  flex-wrap: center;
+  height: 5vh;
+}
+
+/*This is how the CSS changes when screen width is below 500px - Mobile devices*/
+@media only screen and (max-width: 500px) {
+.navbar {
+        height: 5vh;
+        
+    }
+}
+
+/*This is how the CSS changes when screen width is below 500px - Mobile devices*/
+@media only screen and (max-width: 500px) {
+a.border {
+        height: 4.5vh;
+        
+    }
 }
 
 
 /* Navigation links */
 .navbar a {
-  float: left;
-  padding: 10px 0;
+  float: center;
+  /*padding: 10px 0;*/
   color: white;
   text-decoration: none;
   font-size: 17px;
@@ -255,16 +274,16 @@ h4 {
   .navbar a {
     float: left;
     /*display: block;*/
-    /*width: 100%;*/
+    /*width: 30%;*/
     font-size: 1em;
     text-align: center;
-    padding-left: 0;
+    /*padding-left: 0;*/
     margin: auto;
   }
 }
 
 a.nospace {
-    padding: 0.1px;
+    /*padding: 0.1px;*/
 }
 
 /*@media screen and (max-width: 500px) {
@@ -275,6 +294,10 @@ a.nospace {
 
 a.border {
     border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*padding: 10px 0;*/
 }
 
 /*paypal donate button*/
@@ -658,7 +681,7 @@ This is how the CSS changes when screen width is below 400px - Mobile devices
 .grid-wrapper2 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-    grid-gap: 1% 1%;
+    grid-gap: 2% 2%;
     padding: 3% 2% 10% 2%;
     min-height: 100%;
     grid-auto-rows: minmax(20vh, 10vh);
