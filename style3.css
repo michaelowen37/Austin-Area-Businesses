@@ -228,7 +228,7 @@ h4 {
   overflow: hidden;
   display: flex;
   flex-wrap: center;
-  height: 5vh;
+  height: 6vh;
 }
 
 /*This is how the CSS changes when screen width is below 500px - Mobile devices*/
