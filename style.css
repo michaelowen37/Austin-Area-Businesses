@@ -135,6 +135,18 @@ li {
     }
 }
 
+li.top {
+    padding-left: 0;
+}
+
+/*This is how the CSS changes when screen width is below 1000px - Mobile devices*/
+@media only screen and (max-width: 1000px) {
+    li.top {
+        padding: 4%;
+        
+    }
+}
+
 /*Nav bar text*/
 a {
     color: #647e85;
